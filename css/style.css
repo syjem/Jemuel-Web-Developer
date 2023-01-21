@@ -56,7 +56,15 @@ body {
   align-items: center;
   color: black;
   margin: 0 auto;
+  font-size: 30px;
 }
+
+.fa-brands {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
 
 .me {
     border: 5px solid #fff1ff;
