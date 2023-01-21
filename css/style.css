@@ -75,6 +75,7 @@ body {
 .icons i {
   margin: 0 15px;
   color: rgb(85, 83, 83);
+  transition: all .15s ease;
 }
 
 .icons i:hover {
