@@ -95,6 +95,22 @@ body {
   transform: scale(1.1);
 }
 
+.icons .fa-facebook:hover{
+  color: rgb(58, 58, 233);
+}
+
+.icons .fa-linkedin:hover {
+  color: rgb(21, 115, 158);
+}
+
+.icons .fa-square-instagram:hover {
+  color: #b93a99;
+}
+
+.icons .fa-twitter:hover {
+  color: rgb(58, 190, 243);
+}
+
 .me {
     border: 5px solid #fff1ff;
     border-radius: 50%;  
