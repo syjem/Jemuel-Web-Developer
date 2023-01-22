@@ -19,7 +19,7 @@ body {
   height: 80px;
   display: flex;
   position: fixed;
-  background-color: rgb(129, 134, 134);
+  background-color: rgb(169, 170, 170);
   display: flex;
   justify-content: center;
   text-align: center;
@@ -29,6 +29,11 @@ body {
   position: absolute;
   margin: 8px;
   left: 3px;
+  border-radius: 20%;
+}
+
+.img_logo:hover {
+  transform: rotate(90deg);
 }
 
 ul {
@@ -47,13 +52,13 @@ a {
   text-decoration: none;
   font-size: 20px;
   font-weight: 300px;
-  color: #eee4d1;
+  color: #222222;
   text-transform: uppercase;
 }
 
 ul li:hover {
-  color: rgb(255, 255, 255);
-  font-weight: 700;
+  color: rgba(219, 41, 41, 0.9);
+  font-weight: 500;
 }
 
 /* Main */
