@@ -53,6 +53,7 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  gap: 10px;
   text-align: center;
   margin: 10px 0;
 }
@@ -113,17 +114,21 @@ body {
     font-size: 25px;
     font-weight: 800;
     text-transform: uppercase;
+    text-shadow: -3px -3px #000007
 }
 
 .title {
     padding: 5px 0;
-    font-size: 16px;
-    font-weight: 100;
+    font-size: 15px;
+    font-weight: 300;
     text-transform: uppercase;
     background-color: #ddd1dd;
-    width: 60%;
+    width: 90%;
     margin: 0 auto;
     border-radius: 5px;
+    color: rgb(234, 248, 250);
+    background: rgb(173, 20, 71);
+    text-shadow: -2px -2px #171718
 }
 
 .text {
@@ -219,6 +224,7 @@ body {
 
 .button_text {
   position: relative;
+  text-shadow: -1.5px -1.5px #171718
 }
 
 .button:hover .button_sl {
