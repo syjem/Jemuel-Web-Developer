@@ -95,7 +95,7 @@ ul li:hover {
     border-top-right-radius: 10px;
     gap: 50px;
     padding: 80px 50px 40px 50px;
-    width: 80%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -117,19 +117,22 @@ ul li:hover {
 }
 
 .image-container {
+  width: 100%;
+  height: auto;
   display: flex;
   justify-content: center;
   flex-direction: column;
   gap: 10px;
   text-align: center;
   margin: 10px 0;
+  border: 2px solid rebeccapurple;
 }
 
 .icons {
   background-color: #ddd1dd;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  width: 80%;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -164,7 +167,10 @@ ul li:hover {
 
 .me {
     border: 5px solid #fff1ff;
-    border-radius: 50%;  
+    border-radius: 50%; 
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto; 
 }
 
 .info {
@@ -186,7 +192,7 @@ ul li:hover {
 
 .title {
     padding: 5px 0;
-    font-size: 15px;
+    font-size: 1.5vw;
     font-weight: 300;
     text-transform: uppercase;
     background-color: #ddd1dd;
@@ -298,3 +304,13 @@ ul li:hover {
   width: calc(100% + 15px);
 }
 
+/* Media Queries  */
+
+@media screen and (max-width: 650px) {
+  main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+}
