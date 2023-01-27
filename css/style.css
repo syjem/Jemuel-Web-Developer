@@ -157,30 +157,9 @@ ul li:hover {
 
 .icons i:hover {
   cursor: pointer;
-  border: 2px solid rgb(8, 8, 8);
-  color: rgb(8, 8, 8);
-  transform: scale(0.9);
-}
-
-.icons .fa-facebook:hover{
-  color: rgb(90, 90, 241);
-  border: 2px solid rgb(90, 90, 241);
-
-}
-
-.icons .fa-linkedin:hover {
-  color: rgb(21, 115, 158);
-  border: 2px solid rgb(21, 115, 158);
-}
-
-.icons .fa-square-instagram:hover {
   color:rgb(235, 60, 60);
   border: 2px solid rgb(235, 60, 60);
-}
-
-.icons .fa-twitter:hover {
-  color: rgb(58, 190, 243);
-  border: 2px solid rgb(58, 190, 243);
+  transform: scale(0.9);
 }
 
 .me {
