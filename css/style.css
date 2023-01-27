@@ -151,6 +151,7 @@ ul li:hover {
 }
 
 .info {
+  width: 100%;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -310,12 +311,36 @@ ul li:hover {
 @media screen and (max-width: 650px) {
   main {
    border: 2px solid white;
+   border-radius: 10px;
    width: 100%;
    margin: 0 calc((100% - 100vw)/2);
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+  }
+
+  .image-container {
+    border: 2px solid white;
   }
 
   .profile {
     width: 100%;
     margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .info {
+    height: auto;
+    text-align: center;
+    border: 2px solid white;
+  }
+
+  .name {
+    font-size: 30px;
+    width: 100%;
   }
 }
