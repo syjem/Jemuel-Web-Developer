@@ -316,14 +316,13 @@ ul li:hover {
   }
 
   main {
-   border: 2px solid white;
    border-radius: 10px;
    width: 100%;
 
   }
 
   .image-container {
-    border: 2px solid white;
+    /* border: 2px solid white; */
   }
 
   .profile {
@@ -338,7 +337,6 @@ ul li:hover {
   .info {
     height: auto;
     text-align: center;
-    border: 2px solid white;
   }
 
   .name {
