@@ -150,6 +150,30 @@ ul li:hover {
   text-shadow: -2px -2px #171718
 }
 
+.info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  line-height: 1.5;
+  width: auto;
+  height: 280px;
+}
+
+.name {
+  font-size: 25px;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-shadow: -3px -3px #000007
+}
+
+.text {
+  padding-top: 15px;
+  font-size: 16px;
+  line-height: 1.3;
+  font-weight: 100;
+}
+
 
 .icons {
   background-color: #ddd1dd;
@@ -186,30 +210,6 @@ ul li:hover {
   color:rgb(235, 60, 60);
   border: 2px solid rgb(235, 60, 60);
   transform: scale(0.9);
-}
-
-.info {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    gap: 20px;
-    line-height: 1.5;
-    width: auto;
-    height: 280px;
-}
-
-.name {
-    font-size: 25px;
-    font-weight: 800;
-    text-transform: uppercase;
-    text-shadow: -3px -3px #000007
-}
-
-.text {
-    padding-top: 15px;
-    font-size: 16px;
-    line-height: 1.3;
-    font-weight: 100;
 }
 
 .btn-container {
