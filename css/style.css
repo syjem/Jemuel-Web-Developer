@@ -80,8 +80,8 @@ ul li:hover {
 /* Main */
 
 .main {
-    width: 80%;
-    margin: 150px auto;
+    width: 100%;
+    margin: 80px auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -142,7 +142,7 @@ ul li:hover {
   font-weight: 300;
   text-transform: uppercase;
   background-color: #ddd1dd;
-  width: 90%;
+  width: 40%;
   margin: 0 auto;
   border-radius: 5px;
   color: rgb(234, 248, 250);
