@@ -11,6 +11,16 @@ body {
     background-color: rgb(11, 2, 28);
 }
 
+footer {
+  text-align: center;
+  width: 100%;
+  color: #ddd1dd;
+  border: 1px solid #f7a9af;
+  box-shadow: rgba(0, 0, 0, 0.4) 1px 3px 4px, 
+                rgba(0, 0, 0, 0.3) 1px 7px 13px -3px, 
+                rgba(0, 0, 0, 0.2) 1px -3px 0px inset;
+}
+
 /* Header */
 
 .header {
@@ -56,10 +66,16 @@ a {
   text-transform: uppercase;
 }
 
+.active {
+  color: rgba(219, 41, 41, 0.9);
+}
+
 ul li:hover {
   color: rgba(219, 41, 41, 0.9);
   font-weight: 500;
 }
+
+
 
 /* Main */
 
